@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Deepali Singh Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">Deepali singh</a>
+
+        <nav class="navbar">
+            <a href="#" class="active">Home</a>
+            <a href="#">About us</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Conatact us</a>
+            <a href="#container">Temperature Convertor</a>
+        </nav>
+    </header>
+   
+    <section class="home">
+        <div class="home-content">
+            <h1>Hi, I am Deepali Singh</h1>
+            <h3>Python,C,Java</h3>
+            <p>Hii I am Deepali Singh.
+                I am pursuing b.tech from BN college of engineering and technology 
+                which is situated in Bakshi ka Talab Lucknow and Affilted to AKTU.
+            </p>
+            <div class="bt1-box">
+                <a href="#">Talk me</a>
+                <a href="#">print resume</a>
+            </div>
+        </div>
+
+        <div class="menu-sec">
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="#"><i class='bx bxl-facebook-circle' ></i></a>
+            <a href="#"><i class='bx bxl-twitter' ></i></a>
+            <a href="#"><i class='bx bxl-linkedin-square' ></i></a>
+        </div>
+    </section>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div class="a1">
+      <h1 class="t">Temperature Converter</h1>
+      <div id="container">
+        <label for="temperature">Enter temperature:</label>
+        <input type="number" id="temperature" placeholder="Enter temperature" />
+        <select id="unit">
+          <option value="celsius">Celsius</option>
+          <option value="fahrenheit">Fahrenheit</option>
+          <option value="kelvin">kelvin</option>
+        </select>
+        <button onclick="convertTemperature()">Convert</button>
+        <p id="result"></p>
+      </div>
+    </div>
+    
+      <script src="script.js"></script>
+      
+</body>
+</html>
